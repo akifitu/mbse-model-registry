@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MBSE Model Registry</title>
+  <style>
+    :root {
+      --bg: #f0f3f7;
+      --panel: rgba(255,255,255,0.9);
+      --ink: #1f2a3d;
+      --muted: #617089;
+      --accent: #2563eb;
+      --line: rgba(31,42,61,0.12);
+      --shadow: 0 18px 40px rgba(31, 42, 61, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #f4f7fb, #e7edf5);
+    }
+    main {
+      width: min(1100px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 28px 0 54px;
+    }
+    .hero, section, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      border-radius: 24px;
+    }
+    .hero {
+      padding: 28px;
+      background: linear-gradient(135deg, rgba(37,99,235,0.95), rgba(30,64,175,0.95));
+      color: #f7fbff;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      font-family: "Georgia", serif;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin: 18px 0;
+    }
+    .card {
+      padding: 20px;
+      min-height: 116px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card span {
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 0.84rem;
+      letter-spacing: 0.07em;
+    }
+    .card strong {
+      color: var(--accent);
+      font-size: 1.9rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    section {
+      padding: 22px;
+      overflow: hidden;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>MBSE Model Registry</h1>
+      <p>Architecture-view and model-package catalog for a multi-repository systems engineering portfolio.</p>
+    </section>
+    <div class="metrics"><article class="card"><span>Packages</span><strong>5</strong></article>
+<article class="card"><span>Domains</span><strong>5</strong></article>
+<article class="card"><span>Repositories</span><strong>11</strong></article>
+<article class="card"><span>View Types</span><strong>13</strong></article></div>
+    <div class="grid">
+      <section>
+        <h2>Model Packages</h2>
+        <table><thead><tr><th>id</th><th>title</th><th>domain</th><th>requirement count</th><th>interface count</th></tr></thead><tbody><tr><td>MDL-001</td><td>Mission Context Package</td><td>mission_architecture</td><td>16</td><td>4</td></tr><tr><td>MDL-002</td><td>Verification Structure Package</td><td>verification_architecture</td><td>14</td><td>2</td></tr><tr><td>MDL-003</td><td>Integration and Interface Package</td><td>integration_architecture</td><td>11</td><td>15</td></tr><tr><td>MDL-004</td><td>Reliability and Operations Package</td><td>assurance_architecture</td><td>9</td><td>3</td></tr><tr><td>MDL-005</td><td>Mission Analysis Package</td><td>analysis_architecture</td><td>8</td><td>2</td></tr></tbody></table>
+      </section>
+      <section>
+        <h2>Repository Coverage</h2>
+        <table><thead><tr><th>repository</th><th>package count</th><th>view count</th></tr></thead><tbody><tr><td>autonomous-disaster-response-digital-thread</td><td>2</td><td>6</td></tr><tr><td>autonomous-disaster-response-program-office</td><td>2</td><td>6</td></tr><tr><td>fmea-reliability-workbench</td><td>1</td><td>3</td></tr><tr><td>interface-control-toolkit</td><td>1</td><td>3</td></tr><tr><td>ops-concept-simulator</td><td>2</td><td>6</td></tr><tr><td>program-risk-board</td><td>2</td><td>6</td></tr><tr><td>release-readiness-command-center</td><td>1</td><td>3</td></tr><tr><td>satellite-power-budget-simulator</td><td>1</td><td>3</td></tr><tr><td>systems-engineering-traceability-lab</td><td>1</td><td>3</td></tr><tr><td>trade-study-engine</td><td>1</td><td>3</td></tr><tr><td>verification-readiness-dashboard</td><td>1</td><td>3</td></tr></tbody></table>
+      </section>
+      <section>
+        <h2>Warnings</h2>
+        <ul><li>None</li></ul>
+      </section>
+      <section>
+        <h2>Errors</h2>
+        <ul><li>None</li></ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+id,title,domain,view_types,linked_repositories,requirement_count,interface_count
+MDL-001,Mission Context Package,mission_architecture,context; capability; stakeholder,systems-engineering-traceability-lab; autonomous-disaster-response-digital-thread; autonomous-disaster-response-program-office,16,4
+MDL-002,Verification Structure Package,verification_architecture,verification; allocation; review_readiness,verification-readiness-dashboard; program-risk-board; autonomous-disaster-response-program-office,14,2
+MDL-003,Integration and Interface Package,integration_architecture,interface; allocation; logical,interface-control-toolkit; trade-study-engine; autonomous-disaster-response-digital-thread,11,15
+MDL-004,Reliability and Operations Package,assurance_architecture,failure; operational; risk,fmea-reliability-workbench; ops-concept-simulator; program-risk-board,9,3
+MDL-005,Mission Analysis Package,analysis_architecture,parametric; operational; resource,satellite-power-budget-simulator; ops-concept-simulator; release-readiness-command-center,8,2
