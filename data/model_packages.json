@@ -7,9 +7,10 @@
     "linked_repositories": [
       "systems-engineering-traceability-lab",
       "autonomous-disaster-response-digital-thread",
-      "autonomous-disaster-response-program-office"
+      "autonomous-disaster-response-program-office",
+      "federated-mbse-ecosystem"
     ],
-    "requirement_count": 16,
+    "requirement_count": 18,
     "interface_count": 4
   },
   {
